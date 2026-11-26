@@ -3,6 +3,7 @@ import json
 import sys
 from pathlib import Path
 import time
+import os
 
 from langchain_mcp_adapters.client import MultiServerMCPClient
 
@@ -14,13 +15,14 @@ async def call_mcp_tool(server_name, tool_name, arguments):
     start = time.perf_counter()
 
     client = MultiServerMCPClient({
-        server_name: {
-            "command": sys.executable,
-            "args": [
-                str(SERVER_DIR / f"{server_name}_server.py")
-            ],
-            "transport": "stdio"
-        }
+    server_name: {
+        "command": sys.executable,
+        "args": [
+            str(SERVER_DIR / f"{server_name}_server.py")
+        ],
+        "transport": "stdio",
+        "env": os.environ.copy()
+    }
     })
 
     tools = await client.get_tools()
