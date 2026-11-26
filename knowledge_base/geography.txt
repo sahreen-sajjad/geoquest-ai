@@ -1,0 +1,39 @@
+COUNTRY: Iceland
+CATEGORY: Landscape
+Iceland features volcanic landscapes, black sand beaches,
+lava fields, treeless terrain and extensive moss coverage.
+
+COUNTRY: Japan
+CATEGORY: Road Markings
+Japan drives on the left. Many roads have white edge
+markings and white or orange centre lines.
+
+COUNTRY: Australia
+CATEGORY: Landscape
+Australia features eucalyptus trees, dry grasslands,
+red soil and extensive arid landscapes.
+
+COUNTRY: Brazil
+CATEGORY: Language
+Portuguese is the official language of Brazil.
+Common road signs include PARE, meaning stop.
+
+COUNTRY: Poland
+CATEGORY: Language
+Polish uses distinctive characters such as ł, ą, ę,
+ś, ź, ż, ć and ń.
+
+COUNTRY: South Africa
+CATEGORY: Road Markings
+South Africa drives on the left and commonly uses
+yellow road edge lines.
+
+COUNTRY: Norway
+CATEGORY: Landscape
+Norway features mountainous terrain, fjords,
+glacial valleys and rocky coastlines.
+
+COUNTRY: Netherlands
+CATEGORY: Landscape
+The Netherlands features flat terrain, canals,
+cycling infrastructure and extensive agricultural land.
