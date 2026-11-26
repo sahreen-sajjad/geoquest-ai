@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://geoquest-ai.onrender.com";
 const $ = id => document.getElementById(id);
 let sessionId = localStorage.getItem('geoquest_player_id');
 let selectedAnswer = null, hintsUsed = 0, roundActive = false, busy = false;
